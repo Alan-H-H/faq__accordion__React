@@ -136,11 +136,9 @@ hr{
     font-size: 16px;
   }
   .container__main{
-    margin-top: 1em;
+    margin-top: 0em;
     margin-left: 2em;
-    margin-right: 2em;
-    position: relative;
-    width: 300px;
+    margin-right: 4em;
   }
   .container__main__up{
     position: relative;
