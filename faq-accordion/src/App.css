@@ -1,0 +1,160 @@
+
+body{
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  background-color: hsl(275, 100%, 97%);
+}
+button{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: white;
+  font-size: 12px;
+  text-align: left;
+}
+p{
+  color: hsl(292, 16%, 49%);
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+h2, h1{
+  color: hsl(292, 42%, 14%);
+}
+h1{
+  font-size: 38px;
+  font-weight: 800;
+}
+hr{
+  padding: 0em 19.5em;
+  background-color: hsl(292, 16%, 49%);
+  opacity: 0.2;
+}
+.container__main{
+  height: auto;
+  width: 500px;
+  margin-top: -21em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  border-radius: 1em;
+  background: white;
+  z-index: 100;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.container__main__up{
+  z-index: 80;
+  background: cover;
+  position: relative;
+}
+.container__main__up img{
+  width:100%;
+}
+.align__icon img{
+  width: 25px;
+  padding-right: 1em;
+}
+.align__icon{
+  display: flex;
+}
+.align__icon svg{
+  margin-top: 2em;
+}
+.container__faq1 img{
+  width: 25px;
+  padding-left: 3em;
+}
+.faq1{
+  display: flex;
+}
+.faq1__hide{
+  display: none;
+}
+.align__btns{
+  display: flex;
+  flex-direction: row;
+}
+.plus1{
+  display: none;
+}
+.container__faq2 img{
+  width: 25px;
+  padding-left: 21.5em;
+}
+.faq2{
+  display: flex;
+}
+.faq2__hide{
+  display: none;
+}
+.plus2{
+  display: none;
+}
+.container__faq3 img{
+  width: 25px;
+  padding-left: 9.5em;
+}
+.faq3{
+  display: flex;
+}
+.faq3__hide{
+  display: none;
+}
+.plus3{
+  display: none;
+}
+.container__faq4 img{
+  width: 25px;
+  padding-left: 9.5em;
+}
+.faq4{
+  display: flex;
+}
+.faq4__hide{
+  display: none;
+}
+.plus4{
+  display: none;
+}
+.attribution{
+  position: relative;
+}
+.mobile__img{
+  display: none;
+}
+@media(width <= 700px){
+  hr{
+    padding: 0em 14em;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .container__main{
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: -10em;
+    width: 350px;
+  }
+  .container__main__up{
+    position: relative;
+  }
+  .backround__img{
+    display: none;
+  }
+  .mobile__img{
+    display: flex;
+  }
+  .container__faq2 img{
+    padding-left: 10.2em;
+  }
+  .container__faq3 img{
+    padding-left: 2em;
+  }
+  .container__faq4 img{
+    padding-left: 0em;
+  }
+}
