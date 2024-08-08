@@ -144,7 +144,7 @@ hr{
     position: relative;
   }
   .backround__img{
-    display: none;
+    display: flex;
   }
   .mobile__img{
     display: flex;
