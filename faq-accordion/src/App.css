@@ -136,7 +136,7 @@ hr{
     margin-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
-    margin-top: -10em;
+    position: absolute;
     width: 350px;
   }
   .container__main__up{
