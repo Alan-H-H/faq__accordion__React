@@ -84,6 +84,7 @@ function App() {
   
   return (
 <div className="container__main__up">
+      <img className="mobile__img" src={mobileSVG} alt="" />
       <img className="backround__img" src={BackgroundSVG} alt=""/>
       <img className='mobile__img' src={mobileSVG} alt=""/>
   <div className="container__main">
