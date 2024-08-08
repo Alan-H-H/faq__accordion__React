@@ -5,7 +5,7 @@ import IconSVG from "./images/icon-star.svg"
 import PlusSVG from "./images/icon-plus.svg"
 import MinusSVG from "./images/icon-minus.svg"
 import mobileSVG from "./images/background-pattern-mobile.svg"
-import React from 'react';
+import React, {useState} from 'react';
 
 function App() {
   
