@@ -89,7 +89,7 @@ function App() {
   <div className="container__main">
     <div className="align__icon">
       <img src={IconSVG} alt="" width= "50px"/>
-        <h1>FAQs</h1>
+        <h1>FAQ</h1>
     </div>
       <button className="container__faq1" onClick={handleClick1}>
         <div className='align__btns'>
