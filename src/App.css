@@ -63,67 +63,34 @@ hr{
 .align__icon svg{
   margin-top: 2em;
 }
-.container__faq1 img{
+.container__faq img{
   width: 25px;
   padding-left: 3em;
 }
-.faq1{
+.faq{
   display: flex;
 }
-.faq1__hide{
+.faq__hide{
   display: none;
 }
 .align__btns{
   display: flex;
   flex-direction: row;
 }
-.plus1{
-  display: none;
-}
-.container__faq2 img{
-  width: 25px;
-  padding-left: 21.5em;
-}
-.faq2{
-  display: flex;
-}
-.faq2__hide{
-  display: none;
-}
-.plus2{
-  display: none;
-}
-.container__faq3 img{
-  width: 25px;
-  padding-left: 9.5em;
-}
-.faq3{
-  display: flex;
-}
-.faq3__hide{
-  display: none;
-}
-.plus3{
-  display: none;
-}
-.container__faq4 img{
-  width: 25px;
-  padding-left: 9.5em;
-}
-.faq4{
-  display: flex;
-}
-.faq4__hide{
-  display: none;
-}
-.plus4{
-  display: none;
-}
 .attribution{
   position: relative;
 }
 .mobile__img{
   display: none;
+}
+.plus__hide{
+  display: none;
+}
+.minus__hide{
+  display: none;
+}
+.padd__icon{
+  padding-right: 12em;
 }
 @media(width <= 700px){
   body{
@@ -151,14 +118,5 @@ hr{
   }
   .mobile__img{
     display: flex;
-  }
-  .container__faq2 img{
-    padding-left: 10.2em;
-  }
-  .container__faq3 img{
-    padding-left: 2em;
-  }
-  .container__faq4 img{
-    padding-left: 0em;
   }
 }
